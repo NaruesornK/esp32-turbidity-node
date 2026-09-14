@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "devices": {
+    "246F287ABC12": {
+      "sleep_minutes": 15,
+      "tb_token": "TOKEN_1"
+    },
+    "246F287ABC34": {
+      "sleep_minutes": 30,
+      "tb_token": "TOKEN_2"
+    }
+  }
+}
