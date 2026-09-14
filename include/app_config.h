@@ -12,7 +12,7 @@
 #define SENSOR_SLAVE_ID 1
 
 // GitHub URLs
-#define GITHUB_CONFIG_URL "https://raw.githubusercontent.com/NaruesornK/esp32-turbidity-node/main/config.json"
+#define GITHUB_CONFIG_URL "https://raw.githubusercontent.com/NaruesornK/esp32-turbidity-node/master/config.json"
 #define GITHUB_OTA_URL_PREFIX "https://github.com/NaruesornK/esp32-turbidity-node/releases/download/v"
 
 // ThingsBoard
