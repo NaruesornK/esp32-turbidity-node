@@ -62,7 +62,8 @@ bool syncConfigAndOTA() {
         if (httpCode == HTTP_CODE_OK) {
             String payload = http.getString();
             
-            DynamicJsonDocument doc(2048);
+            // จองหน่วยความจำ 8192 bytes (รองรับบอร์ดใน config ได้ประมาณ 80-100 ตัว)
+            DynamicJsonDocument doc(8192);
             DeserializationError error = deserializeJson(doc, payload);
             
             if (!error) {
