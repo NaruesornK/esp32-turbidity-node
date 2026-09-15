@@ -35,6 +35,7 @@ void performOTA(String version) {
     
     String binUrl = String(GITHUB_OTA_URL_PREFIX) + version + "/firmware.bin";
     
+    httpUpdate.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
     t_httpUpdate_return ret = httpUpdate.update(client, binUrl);
     switch(ret) {
         case HTTP_UPDATE_FAILED:
