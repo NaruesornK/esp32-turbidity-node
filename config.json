@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "devices": {
     "B4BFE9DBC900": {
-      "sleep_minutes": 1,
+      "sleep_minutes": 10,
       "tb_token": "JHM6raFM359zEU3XBNCz"
     },
     "Node2_MAC2:": {
