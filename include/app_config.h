@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-#define CURRENT_VERSION "1.0.0"
+#define CURRENT_VERSION "1.0.1"
 
 // Hardware Config
 #define MODBUS_RX_PIN 16

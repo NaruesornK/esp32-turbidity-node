@@ -60,6 +60,10 @@ void loop() {
         case STATE_READ_SENSOR:
             Serial.println("\n[STATE] Reading Modbus Sensor...");
             turbidityValue = readTurbidity();
+            if (turbidityValue == -999.0f) {
+                Serial.println("Modbus Error E2 (Sensor not connected). Using Dummy Data: 99.99 NTU");
+                turbidityValue = 99.99f;
+            }
             currentState = STATE_SEND_TELEMETRY;
             break;
             
