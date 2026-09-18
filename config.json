@@ -5,7 +5,7 @@
       "sleep_minutes": 10,
       "tb_token": "JHM6raFM359zEU3XBNCz"
     },
-    "Node2_MAC2:": {
+    "NODE2MACADDRESS": {
       "sleep_minutes": 30,
       "tb_token": "TOKEN_2"
     }
